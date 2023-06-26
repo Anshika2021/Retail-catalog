@@ -56,17 +56,13 @@ public class Category implements Serializable{
 		return serialVersionUID;
 	}
 
-	public Category(Integer categoryId, String title, String image) {
+	public Category() {
 		super();
 		this.categoryId = categoryId;
 		this.title = title;
 		this.image = image;
 	}
 	
-	public Category()
-	{
-		
-	}
-	
+
 	
 }
